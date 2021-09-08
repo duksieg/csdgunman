@@ -1,6 +1,6 @@
 import neo4j from 'neo4j-driver'
 
-const uri = 'neo4j://182.52.63.50:8023'
+const uri = 'bolt://182.52.63.50:8023'
 const user = 'neo4j'
 const pwd = 'shooter_crimes'
 
