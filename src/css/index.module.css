@@ -22,9 +22,6 @@
     color: aliceblue;
 
 }
-.carousel {
-    background-color: black !important;
-    }
 
 .backgroundduty{
     background-image: url("../images/backfree500.png");
@@ -53,7 +50,7 @@
     font-size-adjust:inherit;
     font-size: 20px;
     font-size: 3vmin;
-    color: antiquewhite;
+    color: white;
 
 }
 

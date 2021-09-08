@@ -36,11 +36,12 @@ export async function getwanted_list() {
     await session.close()
   }
   await driver.close()
-  if(result!==null || result!==undefined){
+  if(result==null || result==undefined){
+    console.error('Result error')
+  }else{
     console.log('query successful')
     console.log(result)
-  }else{
-    console.error('Result error')
+    
   }
   
   return result

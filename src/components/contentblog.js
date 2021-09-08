@@ -1,9 +1,9 @@
 import React from 'react'
-import * as stylecustomContentblog from "../css/index.module.css"
 import image1 from '../images/backfree500.png'
 import empowerman from '../images/empower.jpg'
 import criminal from '../images/criminal.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import * as stylecustomContentblog from "../css/index.module.css"
 
 const Contentblog = ({frompath}) => {
     if (frompath) {
@@ -14,7 +14,6 @@ const Contentblog = ({frompath}) => {
                         <h1 class="display-6 text-white align-self-center ps-md-2 ms-md-2">ศูนย์ปราบปรามผู้มีอิทธิพล มือปืนรับจ้างและผู้ร้ายสำคัญ
                             CRIMINAL ENTERPRISE AND CRIMES VIOLENCE SUPPRESSION TASK FORCE
                         </h1>
-
                         <img src={image1} class="float-end h-50"></img>
                     </div>
 
