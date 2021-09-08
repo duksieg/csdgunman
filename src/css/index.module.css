@@ -1,0 +1,64 @@
+.body{
+    background-clip: content-box;
+    background-color:antiquewhite;
+}
+.a-customcard:hover {
+    color: inherit;
+  }
+
+.contentblog{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image: url("../images/dropback.jpg");
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contentblog2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-image:url("../images/dropbackother.jpg");
+    color: aliceblue;
+
+}
+.carousel {
+    background-color: black !important;
+    }
+
+.backgroundduty{
+    background-image: url("../images/backfree500.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.texture2{
+    background-image: url('../images/texture2.jpg');
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.textparagraph{
+    margin-top: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-indent: 2em;
+    font-size-adjust:inherit;
+    font-size: 20px;
+    font-size: 3vmin;
+    color: antiquewhite;
+
+}
+
+
+.picmodal{
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "csdgunman",
+  "version": "1.0.0",
+  "private": true,
+  "description": "csdgunman",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "env-cmd -f .env gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "gatsby": "^3.11.1",
+    "gatsby-plugin-gatsby-cloud": "^2.11.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "neo4j-driver": "^4.3.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-bootstrap-icons": "^1.5.0",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-shimmer-effects": "^1.0.2"
+  }
+}
