@@ -2,7 +2,7 @@ import React from 'react';
 import { ShimmerSimpleGallery } from "react-shimmer-effects";
 import { Row, Container, Col } from 'react-bootstrap'
 import 'react-bootstrap/dist/react-bootstrap'
-import { getwanted_list } from './neo4jconnection'
+import  {getwanted_list} from './getpersonal.js'
 import User from './personalcard';
 import * as stylecustomPersonal from '../css/index.module.css'
 
