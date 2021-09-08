@@ -4,11 +4,10 @@ export async function getwanted_list(){
     let result
     const url = 'https://dev.baipai.dev/webwanted'
     try{
-        let response = await fetch(url)
-        let responseJson = await response.json()
-        console.log(responseJson.data)
-        
 
+        let response = await fetch(url)
+        result = await response.json()
+         
     }catch(err){
         console.error(err)
     }

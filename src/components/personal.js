@@ -24,12 +24,13 @@ class Personallayout extends React.Component {
         const temparry = [];
         Array.from(this.state.users).forEach(record => {
             try {
-                let name = record.get('p.name')
-                let idcard = record.get('p.idcard')
-                let charge = record.get('wanteddoc.charge')
-                let courtname = record.get('wanteddoc.courtName')
-                let caseid = record.get('crimecase.name')
-                let casestation = record.get('crimecase.station')
+                
+                let name = record['p.name']
+                let idcard = record['p.idcard']
+                let charge = record['wanteddoc.charge']
+                let courtname = record['wanteddoc.courtName']
+                let caseid = record['crimecase.name']
+                let casestation = record['crimecase.station']
                 let key = idcard
                 temparry.push(<User name={name} idcard={idcard} courtname={courtname}  charge={charge} caseid={caseid} casestation={casestation}  key={`${key}`} />);
             } catch (err) {
