@@ -5,7 +5,7 @@ const About =()=>{
     return(
         <div>
      <TopNav></TopNav>
-     <Contentblog></Contentblog>
+     <Contentblog frompath={true}></Contentblog>
     </div>
 
     )

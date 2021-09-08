@@ -5,8 +5,8 @@ import image1 from '../images/backfree500.png'
 import empowerman from '../images/empower.jpg'
 import criminal from '../images/criminal.jpg'
 
-const Contentblog = () => {
-    if (window.location.pathname.includes('about')) {
+const Contentblog = ({frompath}) => {
+    if (frompath) {
         return (
             <div>
                 <div className={stylecustom.texture2}>
