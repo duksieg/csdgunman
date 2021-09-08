@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcsdgunman=self.webpackChunkcsdgunman||[]).push([[107],{6565:function(e,n,l){l.r(n);var t=l(7294),u=l(2235),a=l(1592);n.default=function(){return t.createElement("main",null,t.createElement("title",null,"GUNMAN by year"),t.createElement(u.Z,null),t.createElement(a.Z,null))}}}]);
+//# sourceMappingURL=component---src-pages-wantedlist-js-b3cefcfef5c1eae3047d.js.map
