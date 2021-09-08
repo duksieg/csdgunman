@@ -3,7 +3,13 @@ import TopNav from "../components/topNav"
 import Personallayout from "../components/personal"
 import OtherMenu from "../components/othermenu"
 import Contentblog from "../components/contentblog"
+const isBrowser = typeof window !== "undefined"
+
 const IndexPage =() => {
+  let loggedIn = false
+  if (isBrowser) {
+    window.localstorage.getItem("isLoggedIn") === "true"
+  }
 
   return (
     
