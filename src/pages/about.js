@@ -1,6 +1,7 @@
 import React from 'react'
-import Contentblog from '../components/contentblog'
+
 import TopNav from "../components/topNav"
+import Contentblog from '../components/contentblog'
 const About =()=>{
     return(
         <div>

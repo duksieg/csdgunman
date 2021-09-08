@@ -4,7 +4,7 @@ import { Row, Container, Col } from 'react-bootstrap'
 import 'react-bootstrap/dist/react-bootstrap'
 import { getwanted_list } from './neo4jconnection'
 import User from './personalcard';
-import * as stylecustom from '../css/index.module.css'
+import * as stylecustomPersonal from '../css/index.module.css'
 
 class Personallayout extends React.Component {
     constructor(props) {
@@ -42,7 +42,7 @@ class Personallayout extends React.Component {
 
     render() {
         return (
-                <Container fluid  class="justify-content-md-around" className={stylecustom.contentblog}>
+                <Container fluid  class="justify-content-md-around" className={stylecustomPersonal.contentblog}>
                         <div className="text-center pt-4">
                             <h1>หมายจับ</h1>
                         </div>
