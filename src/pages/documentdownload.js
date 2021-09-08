@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap';
 import Documenttable from "../components/documenttable";
 import TopNav from "../components/topNav";
 

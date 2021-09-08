@@ -1,7 +1,6 @@
 import * as React from "react"
 import TopNav from "../components/topNav"
 import * as stylecustom from "../css/index.module.css"
-import 'bootstrap';
 
 
 const Duty = () => {
