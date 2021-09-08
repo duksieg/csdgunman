@@ -1,8 +1,9 @@
 import React from 'react';
 import { ShimmerSimpleGallery } from "react-shimmer-effects";
 import { Row, Container, Col } from 'react-bootstrap'
-import User from './personalcard';
+import 'react-bootstrap/dist/react-bootstrap'
 import { getwanted_list } from './neo4jconnection'
+import User from './personalcard';
 import * as stylecustom from '../css/index.module.css'
 
 class Personallayout extends React.Component {

@@ -1,8 +1,9 @@
 
 import React from 'react'
-import { Modal, Button ,Image} from 'react-bootstrap'
 import { useState } from 'react'
+import { Modal, Button } from 'react-bootstrap'
 import tempic from '../images/backfree500.png'
+import 'react-bootstrap/dist/react-bootstrap'
 
 
 

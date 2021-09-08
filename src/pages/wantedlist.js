@@ -1,4 +1,4 @@
-import * as React from "react"
+import  React from "react"
 import TopNav from "../components/topNav"
 import Personallayout from "../components/personal"
 const Wantedlist =() => {
