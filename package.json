@@ -15,9 +15,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.0",
-    "gatsby": "^3.11.1",
+    "gatsby": "^3.13.0",
+    "gatsby-plugin-dts-css-modules": "^2.1.1",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
-    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-plugin-sharp": "^3.13.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "neo4j-driver": "^4.3.3",
     "react": "^17.0.1",

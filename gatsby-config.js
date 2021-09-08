@@ -11,5 +11,5 @@ module.exports = {
         families: ['Droid Sans', 'Droid Serif', 'sans-serif']
       }
     }
-  }],
+  },'gatsby-plugin-dts-css-modules',],
 };
