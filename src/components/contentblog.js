@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap';
 import * as stylecustom from "../css/index.module.css"
 import image1 from '../images/backfree500.png'
 import empowerman from '../images/empower.jpg'

@@ -2,7 +2,6 @@ import React from "react"
 import TopNav from "../components/topNav"
 import Personallayout from "../components/personal"
 import OtherMenu from "../components/othermenu"
-import 'bootstrap';
 import Contentblog from "../components/contentblog"
 const IndexPage =() => {
 

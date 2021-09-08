@@ -1,5 +1,4 @@
 import React from 'react'
-import 'bootstrap'
 import { Carousel } from 'react-bootstrap'
 import testimg from '../images/ศปอร.jpg'
 import testimg2 from '../images/transbackground.jpg'

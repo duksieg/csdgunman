@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Nav, Navbar, Image } from "react-bootstrap";
 import {  Facebook } from 'react-bootstrap-icons';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 const TopNav = () => {
