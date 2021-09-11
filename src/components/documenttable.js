@@ -15,17 +15,23 @@ const Documenttable =()=>{
     <tr>
       <th scope="row">1</th>
       <td>แบบฟอร์มร้องเรียน</td>
+      <a href="../doc/แบบฟอร์มร้องเรียน.doc" download>
       <td>ดาวน์โหลดฟอร์ม</td>
+      </a>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>แบบฟอร์มแจ้งเบาะแส</td>
+      <a href="../doc/แบบฟอร์มร้องเรียน.doc" download>
       <td>ดาวน์โหลดฟอร์ม</td>
+      </a>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>แบบฟอร์มยื่นคำร้อง</td>
+      <a href="../doc/แบบฟอร์มร้องเรียน.doc" download>
       <td>ดาวน์โหลดฟอร์ม</td>
+      </a>
     </tr>
   </tbody>
 </table>

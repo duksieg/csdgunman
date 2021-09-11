@@ -19,9 +19,9 @@ const User = ({ name, idcard, courtname,  charge,caseid,casestation }) => {
                     <img  class="card-img-top" src={tempic} />
                     <div class="card-body">
                         <div class="d-grid gap-2">
-                        <Button class="bg-transparent" onClick={handleShow} >
-                        <p class="card-text stretched-link" onClick={handleShow} style={{fontSize:'16px'},{fontSize:'2vmin'},{color:'#ffffff'}}>{name}</p>
-                        </Button>
+                        <div  class="btn" style={{backgroundColor:'transparent'},{borderWidth:'0'}} onClick={handleShow} >
+                        <p class="stretched-link" onClick={handleShow} style={{fontSize:'20px'},{fontSize:'1.5rem'},{color:'#ffffff'}}>{name}</p>
+                        </div>
                         </div>
                     </div>
                 </div>

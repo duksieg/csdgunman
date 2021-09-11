@@ -11,9 +11,6 @@ const IndexPage =() => {
     <main>
     <title>Home</title>
       <TopNav />
-      {/* <div class="d-flex justify-content-center bg-black ">
-            <img src ={banner} class="img-fluid" alt="ศุนย์ปราบปรามผู้มีอิทธิพล มือปืนรับจ้าง และผู้ร้ายสำคัญ" />
-      </div> */}
       <Contentblog/>
       <Personallayout/>
       <OtherMenu/>
