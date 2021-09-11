@@ -11,5 +11,6 @@ module.exports = {
         families: ['Droid Sans', 'Droid Serif', 'sans-serif']
       }
     }
-  },]
+  },],
+  pathPrefix: "/csdgunman"
 };
