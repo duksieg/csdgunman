@@ -43,7 +43,7 @@ class Personallayout extends React.Component {
 
     render() {
         return (
-                <Container fluid  class="justify-content-md-around" className={stylecustomPersonal.contentblog}>
+                <Container fluid  class="justify-content-center py-3 text-center" style={{backgroundImage:'../images/dropback.jpg'}}>
                         <div className="text-center pt-4">
                             <h1>หมายจับ</h1>
                         </div>
