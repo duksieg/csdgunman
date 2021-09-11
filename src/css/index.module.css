@@ -9,6 +9,7 @@
 .contentblog{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-color: black;
     background-image: url("../images/dropback.jpg");
     justify-content: center;
     text-align: center;

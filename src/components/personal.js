@@ -43,9 +43,10 @@ class Personallayout extends React.Component {
 
     render() {
         return (
-                <Container fluid  class="justify-content-center py-3 text-center" className={stylecustomPersonal.contentblog}>
+                <Container fluid className={stylecustomPersonal.contentblog} >
+                    <div class="justify-content-center py-3 text-center"  >
                         <div className="text-center pt-4">
-                            <h1>หมายจับ</h1>
+                            <h1>รายชื่อผู้มีหมายจับ</h1>
                         </div>
                         
                         <Col>
@@ -53,7 +54,7 @@ class Personallayout extends React.Component {
                                 {this.state.loading || !this.state.users ? <ShimmerSimpleGallery  card imageHeight={100}  row={2} col={3} gap={30} caption /> : this.renderUsers()}
                                 </Row>
                         </Col>
-                        
+                        </div>
                 </Container>
 
 
