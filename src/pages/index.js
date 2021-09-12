@@ -1,23 +1,24 @@
 import React from "react"
+import { Container } from "react-bootstrap"
 import TopNav from "../components/topNav"
 import Personallayout from "../components/personal"
 import OtherMenu from "../components/othermenu"
 import Contentblog from "../components/contentblog"
 
-const IndexPage =() => {
-  
+const IndexPage = () => {
+
   return (
-    
+
     <main>
-    <title>Home</title>
+      <title>Home</title>
       <TopNav />
-      <Contentblog/>
-      <Personallayout/>
-      <OtherMenu/>
+      <Contentblog />
+      <Personallayout />
+      <OtherMenu />
     </main>
 
   )
-  
+
 }
 
 export default IndexPage

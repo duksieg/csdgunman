@@ -15,7 +15,7 @@ const TopNav = () => {
                         <Nav className="nav-auto d-inline-flex mx-auto">
                         
                             <Nav.Link href="/">หน้าแรก</Nav.Link>
-                            <Nav.Link href="/wantedlist">ประกาศหมายจับ</Nav.Link>
+                            <Nav.Link href="/wantedlist">หมายจับตามปีปฎิทิน</Nav.Link>
                             <Nav.Link href="/duty">หน้าที่และพันธกิจ</Nav.Link>
                             <Nav.Link href="/about">เกี่ยวกับองค์กร</Nav.Link>
                             <Nav.Link href="/documentdownload">ดาวน์โหลดฟอร์ม</Nav.Link>
